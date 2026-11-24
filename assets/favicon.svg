@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">The Midnight Letters — Phi emblem</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#493322"/>
+      <stop offset="1" stop-color="#21170f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ead5a6"/>
+      <stop offset=".55" stop-color="#c7a66f"/>
+      <stop offset="1" stop-color="#98764a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="54" fill="url(#bg)"/>
+  <rect x="25" y="25" width="462" height="462" rx="38" fill="none" stroke="#c5a574" stroke-opacity=".8" stroke-width="4"/>
+  <rect x="38" y="38" width="436" height="436" rx="30" fill="none" stroke="#c5a574" stroke-opacity=".28" stroke-width="2"/>
+  <circle cx="256" cy="256" r="157" fill="none" stroke="#c5a574" stroke-opacity=".55" stroke-width="3"/>
+  <circle cx="256" cy="256" r="143" fill="none" stroke="#c5a574" stroke-opacity=".25" stroke-width="2"/>
+  <text x="256" y="337" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="250" fill="url(#gold)">Φ</text>
+</svg>

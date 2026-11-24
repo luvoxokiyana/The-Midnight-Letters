@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Bookshelf</title>
+  <style>
+    body {
+      background-color: #f4f1ea;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: 'Georgia', serif;
+    }
+
+    .bookshelf {
+      width: 90%;
+      max-width: 700px;
+      background-color: #5c3a21;
+      border: 14px solid #422815;
+      border-radius: 6px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+      padding: 20px 20px 0 20px;
+    }
+
+    .shelf {
+      display: flex;
+      align-items: flex-end;
+      gap: 6px;
+      height: 220px;
+      padding: 0 15px;
+      border-bottom: 18px solid #382110;
+      box-shadow: inset 0 -10px 20px rgba(0, 0, 0, 0.4);
+      margin-bottom: 20px;
+    }
+
+    .shelf:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+
+    .book {
+      width: 42px;
+      height: 185px;
+      border-radius: 3px 3px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      box-shadow: inset 3px 0 6px rgba(255, 255, 255, 0.2),
+                  inset -3px 0 6px rgba(0, 0, 0, 0.3),
+                  2px 0 5px rgba(0, 0, 0, 0.4);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .book:hover {
+      transform: translateY(-18px) rotate(-2deg);
+      box-shadow: 4px 12px 15px rgba(0, 0, 0, 0.5);
+      z-index: 2;
+    }
+
+    .book span {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 160px;
+    }
+
+    /* Book Variations */
+    .book-red { background: #9e2a2b; height: 190px; }
+    .book-blue { background: #1d3557; height: 175px; width: 48px; }
+    .book-green { background: #2d6a4f; height: 195px; }
+    .book-gold { background: #b58328; height: 165px; width: 38px; }
+    .book-purple { background: #4a2545; height: 185px; width: 45px; }
+    .book-teal { background: #264653; height: 180px; }
+
+    /* Leaning Book Effect */
+    .book-leaning {
+      transform: rotate(-10deg);
+      transform-origin: bottom left;
+      margin-left: 16px;
+    }
+
+    .book-leaning:hover {
+      transform: translateY(-18px) rotate(-10deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bookshelf">
+    <!-- Top Shelf -->
+    <div class="shelf">
+      <div class="book book-red"><span>Dune</span></div>
+      <div class="book book-blue"><span>1984</span></div>
+      <div class="book book-green"><span>The Hobbit</span></div>
+      <div class="book book-gold"><span>Foundation</span></div>
+      <div class="book book-purple"><span>Neuromancer</span></div>
+      <div class="book book-teal book-leaning"><span>Snow Crash</span></div>
+    </div>
+
+    <!-- Bottom Shelf -->
+    <div class="shelf">
+      <div class="book book-green"><span>Clean Code</span></div>
+      <div class="book book-gold"><span>Refactoring</span></div>
+      <div class="book book-red"><span>Design Patterns</span></div>
+      <div class="book book-blue"><span>You Don't Know JS</span></div>
+    </div>
+  </div>
+
+</body>
+</html>

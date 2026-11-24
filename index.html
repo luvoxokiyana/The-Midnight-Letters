@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Midnight Letters | A Correspondence with the Quieter Hours</title>
+
+    <meta name="description"
+        content="The Midnight Letters is a quiet collection of philosophical reflections, personal correspondence and thoughts on life, time, solitude and the human experience.">
+
+    <meta name="author" content="M.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://themidnightletters.netlify.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Midnight Letters">
+    <meta property="og:description"
+        content="A correspondence with the quieter hours. Reflections on life, philosophy and the things left unsaid.">
+    <meta property="og:url" content="https://themidnightletters.netlify.app/">
+    <meta property="og:image" content="https://themidnightletters.netlify.app/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="The Midnight Letters — A correspondence with the quieter hours.">
+    <meta property="og:site_name" content="The Midnight Letters">
+    <meta property="og:locale" content="en_ZA">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Midnight Letters">
+    <meta name="twitter:description" content="A correspondence with the quieter hours.">
+    <meta name="twitter:image" content="https://themidnightletters.netlify.app/assets/og-image.jpg">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://themidnightletter.netlify.app/#website",
+      "url": "https://themidnightletter.netlify.app/",
+      "name": "The Midnight Letters",
+      "description": "A correspondence with the quieter hours. A collection of philosophical reflections and personal writing.",
+      "inLanguage": "en-ZA"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://themidnightletter.netlify.app/#webpage",
+      "url": "https://themidnightletter.netlify.app/",
+      "name": "The Midnight Letters | A Correspondence with the Quieter Hours",
+      "description": "A quiet collection of philosophical reflections, personal correspondence and thoughts on life, time, solitude and the human experience.",
+      "isPartOf": {
+        "@id": "https://themidnightletter.netlify.app/#website"
+      },
+      "inLanguage": "en-ZA"
+    }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="site-header">
+
+        <a href="#" class="logo" aria-label="The Midnight Letters home">
+
+            <span class="logo-symbol" aria-hidden="true">Φ</span>
+
+            <span class="logo-name">The Midnight Letters</span>
+
+        </a>
+
+
+        <nav class="nav-links" aria-label="Main navigation">
+
+            <a href="#" class="nav-link active">Home</a>
+
+            <a href="#letters" class="nav-link">Letters</a>
+
+            <a href="#about" class="nav-link">About</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Hero -->
+
+    <main>
+
+        <section class="hero-section">
+
+            <!-- Interactive astronomical illustration -->
+
+            <canvas id="astrolabe-canvas" aria-hidden="true"></canvas>
+
+            <!-- Paper texture -->
+
+            <div class="paper-grain" aria-hidden="true"></div>
+
+
+            <div class="hero-content">
+
+                <div class="hero-meta">
+
+                    <span class="meta-line"></span>
+
+                    <span>A LETTER TO THE READER</span>
+
+                    <span class="meta-separator">·</span>
+
+                    <span>WRITTEN BY MIDNIGHT</span>
+
+                </div>
+
+
+                <h1>
+                    <span id="typing-text" aria-label="Dear Readers of the Midnight Letters,"></span><span
+                        class="typing-cursor" aria-hidden="true">|</span>
+                </h1>
+
+
+                <div class="hero-body">
+
+                    <p class="hero-description">
+                        I pray you have all had a lovely day, and for those
+                        who haven't, I wish only to remind you that a bad
+                        day is also a part of a good life.
+                    </p>
+
+
+                    <div class="sign-off">
+
+                        <span class="sign-off-line"></span>
+
+                        <span>Yours kindly, M.</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section class="about-section" id="about">
+            <div class="about-grain" aria-hidden="true"></div>
+
+            <div class="about-container">
+
+                <div class="about-heading">
+                    <span class="about-eyebrow">A FEW WORDS FROM THE AUTHOR</span>
+                    <span class="about-heading-line"></span>
+                </div>
+
+                <div class="about-layout">
+
+                    <article class="letter-content">
+
+                        <span class="letter-date">AN INTRODUCTION</span>
+
+                        <h2>To those who have found their way here,</h2>
+
+                        <div class="letter-divider">
+                            <span></span>
+                            <span>✳</span>
+                            <span></span>
+                        </div>
+
+                        <div class="letter-body">
+
+                            <p class="letter-greeting">My dear reader,</p>
+
+                            <p>
+                                For those of you who've found yourselves here, I'll take this moment to introduce
+                                myself. I am the person behind these letters, though I would rather let my words tell my
+                                story than attempt to do so myself.
+                            </p>
+
+                            <p>
+                                The Midnight Letters has no sense of origin and has existed long before I started
+                                writing here. While I hold myself to low standards when it comes to intellect, I find it
+                                rather important that one expresses their truest thoughts to another soul.
+                            </p>
+
+                            <p>
+                                This little corner of the world is intended to
+                                be a collection of my thoughts, reflections,
+                                observations, and questions. A place where
+                                philosophy meets the ordinary, where the
+                                smallest moments may hold the greatest meaning,
+                                and where we may examine the things we so often
+                                take for granted.
+                            </p>
+
+                            <p>
+                                I do not intend to present myself as someone
+                                with all the answers. Quite the contrary.
+                                I believe there is great beauty in questioning,
+                                in learning, and in admitting how little we
+                                truly know. Perhaps these letters will offer
+                                you a new perspective; perhaps they will simply
+                                give you something to think about on a quiet
+                                evening.
+                            </p>
+
+                            <p>
+                                Whatever you may find within these pages,
+                                I hope you find something worth carrying
+                                with you.
+                            </p>
+
+                            <p>
+                                Thank you for taking the time to read my words.
+                                I hope that, in some small way, they make your
+                                evenings a little less lonely and your thoughts
+                                a little more curious.
+                            </p>
+
+                        </div>
+
+                        <div class="letter-signature">
+                            <span>Yours kindly,</span>
+                            <span class="signature-name">M.</span>
+                        </div>
+
+                    </article>
+
+                    <aside class="about-illustration" aria-hidden="true">
+
+                        <div class="illustration-frame">
+
+                            <svg viewBox="0 0 360 460" xmlns="http://www.w3.org/2000/svg">
+
+                                <g fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.65">
+
+                                    <rect x="24" y="24" width="312" height="412" />
+
+                                    <rect x="32" y="32" width="296" height="396" />
+
+                                    <circle cx="180" cy="188" r="105" />
+                                    <circle cx="180" cy="188" r="92" />
+                                    <circle cx="180" cy="188" r="70" />
+
+                                    <path d="M180 65 V311" />
+                                    <path d="M57 188 H303" />
+
+                                    <path d="M106 114 L254 262" />
+                                    <path d="M254 114 L106 262" />
+
+                                    <path d="M180 83 L190 178 L180 188 L170 178 Z" />
+                                    <path d="M180 293 L190 198 L180 188 L170 198 Z" />
+
+                                    <path d="M180 72 L174 82 H186 Z" />
+                                    <path d="M180 304 L174 294 H186 Z" />
+                                    <path d="M64 188 L74 182 V194 Z" />
+                                    <path d="M296 188 L286 182 V194 Z" />
+
+                                    <path d="M180 188
+                                     C125 135 111 230 180 273
+                                     C249 230 235 135 180 188 Z" />
+
+                                </g>
+
+                                <g fill="currentColor" font-family="Georgia, serif" text-anchor="middle" opacity="0.75">
+
+                                    <text x="180" y="52" font-size="12" letter-spacing="4">M E D I T A T I O</text>
+
+                                    <text x="180" y="345" font-size="11" letter-spacing="3">AD ASTRA</text>
+
+                                    <text x="180" y="370" font-size="9" letter-spacing="2">THOUGHTS AFTER DARK</text>
+
+                                </g>
+
+                                <g fill="currentColor" opacity="0.6">
+                                    <circle cx="180" cy="188" r="3" />
+                                    <circle cx="180" cy="83" r="2" />
+                                    <circle cx="285" cy="188" r="2" />
+                                    <circle cx="75" cy="188" r="2" />
+                                </g>
+
+                            </svg>
+
+                        </div>
+
+                        <span class="illustration-caption">
+                            A STUDY OF THOUGHT AND TIME
+                        </span>
+
+                    </aside>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Letters -->
+
+        <section class="letters-section" id="letters">
+
+            <div class="letters-grain" aria-hidden="true"></div>
+
+            <div class="letters-container">
+
+                <div class="letters-topline">
+                    <span>FROM THE DESK OF M.</span>
+                    <span class="letters-topline-line"></span>
+                    <span>AN ONGOING COLLECTION</span>
+                </div>
+
+                <div class="letters-content">
+
+                    <div class="letters-copy">
+
+                        <span class="letters-eyebrow">
+                            THOUGHTS, REFLECTIONS & CORRESPONDENCE
+                        </span>
+
+                        <h2>
+                            Letters for the
+                            <em>quieter hours.</em>
+                        </h2>
+
+                        <p>
+                            While some thoughts are better kept to ones self, others are worth meeting paper throught
+                            pen.
+                        </p>
+
+                        <p>
+                            Within these pages, you will find my letters
+                            on life, philosophy, love, the human condition,religion,
+                            and the many little things that make our
+                            existence worth contemplating.
+                        </p>
+
+                        <p>
+                            Take your time. There is no particular order
+                            in which these words must be read.
+                        </p>
+
+                        <a href="letters.html" class="letters-cta">
+                            <span>Read the Letters</span>
+                            <span class="letters-cta-arrow">→</span>
+                        </a>
+
+                    </div>
+
+                    <div class="letters-artwork" aria-hidden="true">
+
+                        <div class="letter-illustration">
+
+                            <div class="letter-paper">
+
+                                <div class="paper-top">
+                                    <span>THE MIDNIGHT LETTERS</span>
+                                    <span>✳</span>
+                                </div>
+
+                                <div class="paper-decoration">
+                                    <svg viewBox="0 0 240 190" xmlns="http://www.w3.org/2000/svg">
+
+                                        <g fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.8">
+
+                                            <path d="M120 18
+                                        C90 55 85 105 120 158
+                                        C155 105 150 55 120 18Z" />
+
+                                            <path d="M120 18
+                                        C118 65 119 115 120 158" />
+
+                                            <path d="M120 55
+                                        C94 45 78 54 72 72
+                                        C94 78 109 68 120 55Z" />
+
+                                            <path d="M120 55
+                                        C146 45 162 54 168 72
+                                        C146 78 131 68 120 55Z" />
+
+                                            <path d="M120 90
+                                        C95 80 79 91 74 109
+                                        C96 115 109 103 120 90Z" />
+
+                                            <path d="M120 90
+                                        C145 80 161 91 166 109
+                                        C144 115 131 103 120 90Z" />
+
+                                            <path d="M120 125
+                                        C101 115 90 124 88 139
+                                        C104 144 115 135 120 125Z" />
+
+                                            <path d="M120 125
+                                        C139 115 150 124 152 139
+                                        C136 144 125 135 120 125Z" />
+
+                                            <path d="M40 158 Q120 185 200 158" />
+
+                                        </g>
+
+                                    </svg>
+                                </div>
+
+                                <div class="paper-writing">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="paper-signature">M.</div>
+
+                            </div>
+
+                            <div class="letter-seal">M</div>
+
+                        </div>
+
+                        <span class="letters-art-caption">
+                            A COLLECTION OF WORDS, KEPT AFTER DARK
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="letters-bottomline">
+                    <span>NO. I</span>
+                    <span>EST. IN THE QUIET HOURS</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="site-footer">
+
+            <div class="footer-grain" aria-hidden="true"></div>
+
+            <div class="footer-container">
+
+                <div class="footer-main">
+
+                    <a href="#" class="footer-brand">
+                        <span class="footer-symbol">Φ</span>
+                        <span>The Midnight Letters</span>
+                    </a>
+
+                    <p class="footer-quote">
+                        "Some thoughts are best written in the
+                        quiet hours of the night."
+                    </p>
+
+                    <span class="footer-signature">
+                        Yours kindly, M.
+                    </span>
+
+                </div>
+
+                <div class="footer-divider"></div>
+
+                <div class="footer-bottom">
+
+                    <span class="footer-copyright">
+                        © <span id="copyright-year"></span>
+                        The Midnight Letters
+                    </span>
+
+                    <nav class="footer-navigation" aria-label="Footer navigation">
+
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="letters.html">Letters</a>
+
+                    </nav>
+
+                    <span class="footer-credit">
+                        WRITTEN AFTER DARK
+                    </span>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>

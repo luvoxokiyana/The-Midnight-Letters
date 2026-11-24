@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://themidnightletter.netlify.app/sitemap.xml

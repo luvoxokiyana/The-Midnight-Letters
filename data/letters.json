@@ -1,0 +1,50 @@
+
+{
+    "letters": [
+        {
+            "id": 1,
+            "number": "I",
+            "title": "On the Nature of Time",
+            "category": "Reflections",
+            "date": "2026-11-24",
+            "opening": "A thought on the passing of time.",
+            "greeting": "My dear reader,",
+            "body": [
+                "There is something peculiar about time. We spend so much of it waiting for what comes next, only to find ourselves looking back at what has already passed.",
+                "Perhaps the greatest tragedy is not that time moves so quickly, but that we so often forget to be present while it does."
+            ],
+            "signOff": "Yours kindly,",
+            "author": "M."
+        },
+        {
+            "id": 2,
+            "number": "II",
+            "title": "The Art of Being Alone",
+            "category": "Philosophy",
+            "date": "2026-11-24",
+            "opening": "On solitude and knowing oneself.",
+            "greeting": "My dear reader,",
+            "body": [
+                "There is a difference between being alone and feeling lonely. One is a circumstance, the other a state of mind.",
+                "Perhaps we ought to learn to enjoy our own company before asking the world to keep us company."
+            ],
+            "signOff": "Yours kindly,",
+            "author": "M."
+        },
+        {
+            "id": 3,
+            "number": "III",
+            "title": "On the Things Left Unsaid",
+            "category": "Observations",
+            "date": "2026-11-24",
+            "opening": "A letter about words we never speak.",
+            "greeting": "My dear reader,",
+            "body": [
+                "Some words remain with us long after the moment in which they should have been spoken has passed.",
+                "I wonder how many conversations have existed only in the minds of those who were too afraid to begin them."
+            ],
+            "signOff": "Yours kindly,",
+            "author": "M."
+        }
+    ]
+}
