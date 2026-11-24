@@ -4,44 +4,20 @@
         {
             "id": 1,
             "number": "I",
-            "title": "On the Nature of Time",
-            "category": "Reflections",
-            "date": "2026-11-24",
-            "opening": "A thought on the passing of time.",
-            "greeting": "My dear reader,",
-            "body": [
-                "There is something peculiar about time. We spend so much of it waiting for what comes next, only to find ourselves looking back at what has already passed.",
-                "Perhaps the greatest tragedy is not that time moves so quickly, but that we so often forget to be present while it does."
-            ],
-            "signOff": "Yours kindly,",
-            "author": "M."
-        },
-        {
-            "id": 2,
-            "number": "II",
-            "title": "The Art of Being Alone",
+            "title": "The Moral Sins, Part I",
             "category": "Philosophy",
             "date": "2026-11-24",
-            "opening": "On solitude and knowing oneself.",
-            "greeting": "My dear reader,",
+            "opening": "On the sin of unpursued potential.",
+            "greeting": "Dear readers of The Midnight Letters,",
             "body": [
-                "There is a difference between being alone and feeling lonely. One is a circumstance, the other a state of mind.",
-                "Perhaps we ought to learn to enjoy our own company before asking the world to keep us company."
-            ],
-            "signOff": "Yours kindly,",
-            "author": "M."
-        },
-        {
-            "id": 3,
-            "number": "III",
-            "title": "On the Things Left Unsaid",
-            "category": "Observations",
-            "date": "2026-11-24",
-            "opening": "A letter about words we never speak.",
-            "greeting": "My dear reader,",
-            "body": [
-                "Some words remain with us long after the moment in which they should have been spoken has passed.",
-                "I wonder how many conversations have existed only in the minds of those who were too afraid to begin them."
+                "I have recently found myself in a rather peculiar state of regression. It seemed that I had lost my direction, and with it, the courage to take another step forward. I had become comfortable with a version of myself that I knew was not all that I could be. That was until I stopped by a church and experienced what I can only describe as a moment of clarity.",
+                "We are often guilty of separating our beliefs from the manner in which we live. We profess faith, yet allow ourselves to be governed by the circumstances surrounding us. Like vessels surrendered to the currents of an unforgiving sea, we convince ourselves that wherever the waves carry us must be where we were destined to arrive. In doing so, we surrender the very agency with which we were entrusted. We become content with merely existing.",
+                "It was in this state of complacency that I began to recognise a rather uncomfortable truth: there is a certain disobedience in the deliberate neglect of one's potential. For if we are creations of God, then surely the gifts, faculties and opportunities afforded to us are not without purpose. We are not merely given the means to exist, but the responsibility to cultivate what has been entrusted to us. To allow those gifts to wither through idleness is, in some measure, to neglect the very stewardship expected of us.",
+                "This leads me to a rather severe conviction: that the deliberate refusal to pursue the person God has called us to become may constitute a grave moral failure. Not because our worth is measured by our accomplishments, nor because perfection is demanded of us, but because we ought not willingly bury what has been entrusted to our care. There is a distinction between accepting our human limitations and surrendering to them. The former is humility; the latter, when born of complacency, may become disobedience.",
+                "We must therefore be careful not to mistake contentment with complacency. To be at peace with what God has given us is virtuous; to use that peace as an excuse to neglect what He asks of us is another matter entirely. Our faith cannot be confined to the words we profess on a Sunday, but must find its expression in the manner in which we conduct ourselves throughout the week. We must pursue the Lord through the study of His Word, through the discipline of prayer, and through the continual refinement of our character. Every righteous endeavour, however ordinary it may appear, offers an opportunity to exercise the gifts we have been given.",
+                "This undertaking ought, in many respects, to be terrifying. To examine oneself honestly is to confront the distance between the person one has become and the person one might yet be called to become. Yet it is also a task that should be undertaken with joy. For we have not been left entirely unequipped. We have been given reason to discern, faith to persevere, and the capacity to grow. We must not allow fear, indolence or the comforts of the present to persuade us otherwise.",
+                "Perhaps, then, the question is not simply whether we are living good lives, but whether we are making faithful use of the lives entrusted to us.",
+                "For what greater disservice could we render to a gift than to leave it unopened?"
             ],
             "signOff": "Yours kindly,",
             "author": "M."
